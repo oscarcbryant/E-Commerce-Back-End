@@ -206,7 +206,7 @@ pt 2 - https://drive.google.com/file/d/1N-wuH9WzX2JsTtkOMjprHXhVFtUv6wOM/view
 
 ## media
 
-![Alt text](media/get example.jpg)
+![Alt text](media/get-example.jpg)
 
 Example of code that runs get operator to pull category seeds to insomnia
 
@@ -222,7 +222,7 @@ CRUD operators
 Contributors
 Anyone can contribute to this code
 
-Author
+## Author
 
 Oscar Bryant
 https://github.com/oscarcbryant
