@@ -49,7 +49,7 @@ router.post('/', async (req, res) => {
 //       product_name: "Basketball",
 //       price: 200.00,
 //       stock: 3,
-//       tagIds: [1, 2, 3, 4]
+//       tagIds: [1]
 //     })
 //     res.status(200).json(productData);
 //   } catch (err) {
