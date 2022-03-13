@@ -24,90 +24,43 @@ THEN I am able to successfully create, update, and delete data in my database
 Your database should contain the following four models, including the requirements listed for each model:
 
 
-Category
-
-
-id
-
+### Category
+#### Id
 
 Integer.
+Doesn't allow null values.
+Set as primary key.
+Uses auto increment.
 
+#### category_name
 
+String
 Doesn't allow null values.
 
 
+### Product
+
+#### id
+Integer.
+Doesn't allow null values.
 Set as primary key.
-
-
 Uses auto increment.
 
 
-
-
-category_name
-
+#### product_name
 
 String.
-
-
 Doesn't allow null values.
 
 
-
-
-
-
-Product
-
-
-id
-
-
-Integer.
-
-
-Doesn't allow null values.
-
-
-Set as primary key.
-
-
-Uses auto increment.
-
-
-
-
-product_name
-
-
-String.
-
-
-Doesn't allow null values.
-
-
-
-
-price
-
+#### price
 
 Decimal.
-
-
 Doesn't allow null values.
-
-
 Validates that the value is a decimal.
 
-
-
-
-stock
-
-
+#### stock
 Integer.
-
-
 Doesn't allow null values.
 
 
@@ -212,12 +165,12 @@ Example of code that runs get operator to pull category seeds to insomnia
 
 ## technologies used
 
-Insomnia
-Node
-MySQL
-Express
-Sequelize
-CRUD operators
+#### Insomnia
+#### Node
+#### MySQL
+#### Express
+#### Sequelize
+#### CRUD operators
 
 Contributors
 Anyone can contribute to this code
