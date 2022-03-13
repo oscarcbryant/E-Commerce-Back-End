@@ -25,6 +25,7 @@ Your database should contain the following four models, including the requiremen
 
 
 ### Category
+
 #### Id
 
 Integer.
@@ -50,6 +51,7 @@ Uses auto increment.
 #### product_name
 
 String.
+
 Doesn't allow null values.
 
 
@@ -62,93 +64,54 @@ Validates that the value is a decimal.
 #### stock
 Integer.
 Doesn't allow null values.
-
-
 Set a default value of 10.
-
-
 Validates that the value is numeric.
 
 
-
-
-category_id
+#### category_id
 
 
 Integer.
-
-
 References the Category model's id.
 
+### Tag
 
 
-
-
-
-Tag
-
-
-id
+#### id
 
 
 Integer.
-
-
 Doesn't allow null values.
-
-
 Set as primary key.
-
-
 Uses auto increment.
 
 
-
-
-tag_name
+#### tag_name
 
 String.
 
 
+### ProductTag
 
 
-
-ProductTag
-
-
-id
-
+#### id
 
 Integer.
-
-
 Doesn't allow null values.
-
-
 Set as primary key.
-
-
 Uses auto increment.
 
 
-
-
-product_id
+#### product_id
 
 
 Integer.
-
-
 References the Product model's id.
 
 
-
-tag_id
-
+#### tag_id
 
 Integer.
-
-
 References the Tag model's id.
 
 # Link to Walkthrough
@@ -172,7 +135,7 @@ Example of code that runs get operator to pull category seeds to insomnia
 #### Sequelize
 #### CRUD operators
 
-Contributors
+## Contributors
 Anyone can contribute to this code
 
 ## Author
